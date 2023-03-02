@@ -1,0 +1,19 @@
+MainWidget:
+
+<MainWidget>:
+    BoxLayout:
+        orientation: "horizontal"
+        padding: root.score_text_padding
+        spacing: root.score_text_spacing
+        Label:
+            text: root.score_text_1
+            text_size: self.size
+            font_size: root.score_font_size
+            halign: "right"
+            valign: "top"
+        Label:
+            text: root.score_text_2
+            text_size: self.size
+            font_size: root.score_font_size
+            halign: "left"
+            valign: "top"
